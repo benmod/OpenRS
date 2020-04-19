@@ -21,7 +21,7 @@ Many developing countries have a critical lack of mechanical ventilator, with at
 The sensor device provides measurement of airway pressure, gas flow (bi-directional), temperature and humidity (optional). It is designed to be placed close to the patient and measure those metrics with a meaningful range and accuracy for respiratory monitoring. 
 
 **Documentation:**   
-- [Requirements](sensor_device/sensore_device_requirements.md)  
+- [Requirements](sensor_device/sensor_device_requirements.md)  
 - Design rationale  
 - Tests (TODO)  
 
