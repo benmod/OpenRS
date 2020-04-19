@@ -18,11 +18,11 @@ Many developing countries have a critical lack of mechanical ventilator, with at
 
 ## Sensor device
 
-The sensor device provides measurement of airway pressure, gas flow (bi-directional), temperature and humidity (optional). It is designed to be placed close to the patient and measure those metrics with a meaningful range and accuracy for respiratory monitoring. 
+The sensor device provides measurement of airway pressure and gas flow (bi-directional). It is designed to be placed close to the patient and measure those metrics with a meaningful range and accuracy for respiratory monitoring. 
 
 **Documentation:**   
 - [Requirements](sensor_device/sensor_device_requirements.md)  
-- Design rationale  
+- Design specifications  
 - Tests (TODO)  
 
 **Design Files:**   
@@ -38,5 +38,21 @@ The sensor device provides measurement of airway pressure, gas flow (bi-directio
 
 The main aim of the ventilation feedback device is to provide feedback to someone manually operating a bag valve mask in order to ensure safe usage and reduce the risk of lung damage from improper use. 
 
-**Documentation:** TODO
+**Documentation:** (TODO)
+
+
+## Project Progress
+
+### Current Status
+A first version of the sensor device has been designed and manufactured. First tests have started and early results are promising but more work is needed to properly assess the performance of the sensor. 
+
+### Next Steps
+The most critical next task is to properly test and qualify the sensor. This involve validating the design as well as defining protocols to easily test manufactured units in a low resource environment. Creative solutions will be needed and any help is highly appreciated. 
+
+Moreover, during manufacturing and early tests of the sensor, a few areas for improvements have been identified, in particular:   
+- Firmware: Add temperature compensation of the fluid density  
+- Firmware: Add noise filtering  
+- Mechanical: Add additional pressure leakage protection close to the sensors  
+
+Once this is done, the proper design of the Ventilation Feedback Device can be started. 
 
